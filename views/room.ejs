@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- <html lang="en"> -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <script>
+    const ROOM_ID = "<%= roomId %>"
+  </script>
+
+  <script type="text/javascript" src="jquery.min.js"></script>
+
+  <script src="https://unpkg.com/peerjs@1.3.2/dist/peerjs.min.js" defer></script>
+  <script src="/socket.io/socket.io.js" defer></script>
+  <!-- <script src="script.js" defer></script> -->
+  <script src="textscript.js" defer></script>
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+  <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+
+  <title>모두의 노트</title>
+  <style>
+    #video-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 300px);
+      grid-auto-rows: 300px;
+    }
+    
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    #text-grid{
+      width: 40%;
+      height: 15%;
+    }
+    
+    
+  </style>
+</head>
+<body>
+  
+  <div id="video-grid"></div>
+  <div id="text-grid">
+    <textarea id = text></textarea>
+  </div>
+  <script>
+    
+    </script>
+</body>
+</html>
