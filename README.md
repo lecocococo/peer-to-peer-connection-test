@@ -13,7 +13,12 @@ Second Step,
 npm run crdt
 ```
 Third Step,
-using another cmd, and type
+if you don't running your signaling server
+type
+```
+npm i -g peer
+```
+AND
 ```
 peerjs --port 12346
 ```
