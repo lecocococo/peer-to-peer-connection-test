@@ -25,7 +25,7 @@ peerjs --port 12346
 -----------------
 
 
-## Web Browser
+## Web Browser(USE CHROME)
 If You did all steps in the HOW TO START. open your Web Browser and type
 ```
 http://127.0.0.1:12345/
@@ -36,6 +36,8 @@ http://127.0.0.1:12345/87ec3232-c6c1-4df3-94f0-6a022b8bca3d
 ```
 (after "/" is room id.)
 
-paste above url.
+cpoy AND paste above url in other tab.
+
+AND 
 
 -Fin-
